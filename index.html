@@ -1,229 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Biotechnology Student Portal for laboratory schedules, department announcements, learning resources, and student registration.">
-    <title>Biotechnology Student Portal</title>
+    <meta name="discription" content="BGI Events Portal for upcoming events, ongoing events, past events and club membership registration.">
+
+    <title>BGI Events Portal</title>
 </head>
-
 <body>
-
-    <!-- Header -->
+    <!--Header-->
     <header>
-        <h1>Biotechnology Student Portal</h1>
-        <p>
-            Welcome to the Biotechnology Department's student portal.
-            Explore laboratory schedules, academic announcements,
-            learning resources, and student registration.
-        </p>
+        <h1>Welcome to BGI Events Portal</h1>
+        <P>
+             Welcome to the BGI Events Portal, where you can explore
+            upcoming events, ongoing activities, previous events
+            and student clubs.
+        </P>
+        <img src="bgi_campus.jpg" alt="BGI College Campus" width="400">
     </header>
-
-    <!-- Navigation -->
-    <nav aria-label="Main navigation">
+    <!--navigation-->
+    <nav>
         <h2>Quick Navigation</h2>
-
         <ul>
             <li><a href="#home">Home</a></li>
-            <li><a href="#announcements">Announcements</a></li>
-            <li><a href="#schedule">Laboratory Schedule</a></li>
-            <li><a href="#resources">Learning Resources</a></li>
-            <li><a href="#registration">Student Registration</a></li>
+            <li><a href="#upcoming">Upcoming Events</a></li>
+            <li><a href="#ongoing">Ongoing Events</a></li>
+            <li><a href="#previous">Previous Events</a></li>
+            <li><a href="#cultural">Cultural Club</a></li>
+            <li><a href="#sports">Sports Club</a></li>
+            <li><a href="#technical">Technical Club</a></li>
             <li><a href="#contact">Contact Us</a></li>
         </ul>
     </nav>
 
-    <!-- Main Content -->
+    <!--main content-->
     <main id="home">
-
-        <!-- Introduction -->
-        <section aria-labelledby="about-heading">
-            <h2 id="about-heading">About Our Department</h2>
-
-            <p>
-                The Department of Biotechnology encourages students to
-                explore biological sciences through laboratory experiments,
-                research activities, and scientific learning.
+        <!--About Bgi-->
+        <section >
+            <h2>About BGI Events</h2>
+              <p>
+                BGI organizes various cultural, sports, and technical
+                activities to help students develop their skills,
+                creativity, teamwork, and leadership.
             </p>
 
             <p>
-                Our academic activities focus on molecular biology,
-                genetics, microbiology, bioinformatics, and biotechnology
-                research.
+                Students can participate in competitions, workshops,
+                celebrations, and other college activities.
+
             </p>
+            
         </section>
 
-        <!-- Announcements -->
-        <section id="announcements" aria-labelledby="announcements-heading">
-            <h2 id="announcements-heading">Department Announcements</h2>
+        <!-- Upcoming -->
 
-            <article>
-                <h3>Molecular Biology Laboratory Workshop</h3>
+        <section id="upcoming">
+            <h2>upcoming events Announcements</h2>
 
-                <p>
-                    Students are invited to attend a practical workshop
-                    introducing DNA extraction and analysis techniques.
-                </p>
-
-                <p>
-                    Date:
-                    <time datetime="2026-11-05">5 November 2026</time>
-                </p>
-            </article>
-
-            <article>
-                <h3>Biotechnology Research Seminar</h3>
-
-                <p>
-                    A seminar will introduce students to current research
-                    in genetic engineering, microbial biotechnology,
-                    and bioinformatics.
-                </p>
-
-                <p>
-                    Date:
-                    <time datetime="2026-11-12">12 November 2026</time>
-                </p>
-            </article>
-
-            <article>
-                <h3>Laboratory Record Submission</h3>
-
-                <p>
-                    Students must complete their laboratory records and
-                    submit them to the respective faculty members.
-                </p>
-
-                <p>
-                    Deadline:
-                    <time datetime="2026-11-18">18 November 2026</time>
-                </p>
-            </article>
-        </section>
-
-        <!-- Laboratory Schedule -->
-        <section id="schedule" aria-labelledby="schedule-heading">
-            <h2 id="schedule-heading">Laboratory Schedule</h2>
-
-            <p>
-                The following is a sample weekly laboratory schedule.
-            </p>
+           <p>Here are some sample upcoming college events.</p>
 
             <table>
-                <caption>
-                    Weekly Biotechnology Laboratory Schedule
-                </caption>
+                <caption>Upcoming Event Schedule</caption>
 
-                <thead>
-                    <tr>
-                        <th scope="col">Day</th>
-                        <th scope="col">Time</th>
-                        <th scope="col">Laboratory</th>
-                        <th scope="col">Topic</th>
-                    </tr>
-                </thead>
+                <tr>
+                    <th>Event Name</th>
+                    <th>Date</th>
+                    <th>Venue</th>
+                    <th>Club</th>
+                </tr>
+                <tr>
+                    <td>BGI Timelapse 2026</td>
+                    <td>28 November 2026</td>
+                    <td>BGI Campus Bhopal</td>
+                    <td>All Club</td>
+                </tr>
 
-                <tbody>
-                    <tr>
-                        <td>Monday</td>
-                        <td>10:00 AM - 12:00 PM</td>
-                        <td>Molecular Biology Lab</td>
-                        <td>DNA Extraction</td>
-                    </tr>
+                <tr>
+                    <td>Cultural Fest</td>
+                    <td>27 November 2026</td>
+                    <td>Main Auditorium</td>
+                    <td>Cultural Club</td>
+                </tr>
 
-                    <tr>
-                        <td>Tuesday</td>
-                        <td>11:00 AM - 1:00 PM</td>
-                        <td>Microbiology Lab</td>
-                        <td>Microbial Culture</td>
-                    </tr>
+                <tr>
+                    <td>Sports Competition</td>
+                    <td>26 November 2026</td>
+                    <td>Sports Ground</td>
+                    <td>Sports Club</td>
+                </tr>
 
-                    <tr>
-                        <td>Wednesday</td>
-                        <td>2:00 PM - 4:00 PM</td>
-                        <td>Genetics Lab</td>
-                        <td>Genetic Analysis</td>
-                    </tr>
+                <tr>
+                    <td>Technical Project Exhibition</td>
+                    <td>25 november 2026</td>
+                    <td>Computer Laboratory</td>
+                    <td>Technical Club</td>
+                </tr>
 
-                    <tr>
-                        <td>Thursday</td>
-                        <td>10:00 AM - 12:00 PM</td>
-                        <td>Biochemistry Lab</td>
-                        <td>Protein Analysis</td>
-                    </tr>
-
-                    <tr>
-                        <td>Friday</td>
-                        <td>1:00 PM - 3:00 PM</td>
-                        <td>Bioinformatics Lab</td>
-                        <td>DNA Sequence Analysis</td>
-                    </tr>
-                </tbody>
+                <tr>
+                    <td>Photography Competition</td>
+                    <td>27 november 2026</td>
+                    <td>College Campus</td>
+                    <td>Cultural Club</td>
+                </tr>
             </table>
+<img src="timelapse.jpg" alt="Upcoming Event" width="400">
+
         </section>
 
-        <!-- Learning Resources -->
-        <section id="resources" aria-labelledby="resources-heading">
-            <h2 id="resources-heading">Learning Resources</h2>
+        <!-- Ongoing Events -->
 
-            <p>
-                Use the following resources to explore biotechnology
-                concepts and scientific information.
-            </p>
+        <section id="ongoing">
+            <h2>Ongoing Events</h2>
 
-            <ul>
-                <li>
-                    <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" rel="noopener noreferrer">
-                        National Center for Biotechnology Information (NCBI)
-                    </a>
-                    <p>
-                        Explore biological databases, research articles,
-                        and genetic sequence information.
-                    </p>
-                </li>
+            <article>
+                <h3>Garba Mahotsav Week</h3>
 
-                <li>
-                    <a href="https://www.khanacademy.org/science/biology" target="_blank" rel="noopener noreferrer">
-                        Khan Academy - Biology
-                    </a>
-                    <p>
-                        Learn foundational concepts in biology and
-                        molecular biology.
-                    </p>
-                </li>
+                <p>
+                    Students can capture photographs of campus life
+                    and submit their best photographs.
+                </p>
 
-                <li>
-                    <a href="https://www.ebi.ac.uk/" target="_blank" rel="noopener noreferrer">
-                        European Bioinformatics Institute (EMBL-EBI)
-                    </a>
-                    <p>
-                        Access bioinformatics tools, biological databases,
-                        and educational materials.
-                    </p>
-                </li>
-            </ul>
+                <p>Dates: 12 October to 16 October 2026</p>
+            </article>
 
-            <figure>
-                <img src="https://plus.unsplash.com/premium_photo-1661601679321-033fbcd5a1e5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
-                    alt="Illustrative placeholder image representing a biotechnology laboratory" width="600"
-                    height="300">
+            <article>
+                <h3>Innovation Idea Challenge</h3>
 
-                <figcaption>
-                    Biotechnology combines biological science,
-                    laboratory research, and technology.
-                </figcaption>
-            </figure>
+                <p>
+                    Students can present innovative ideas related
+                    to Garba , Dresscode, and Dandiya.
+                </p>
+
+                <p>Dates: 13 October to 15 October 2026</p>
+            </article>
+            <img src="garba.jpg" alt="ongoing Event" width="400">
         </section>
 
-        <!-- Student Registration -->
-        <section id="registration" aria-labelledby="registration-heading">
-            <h2 id="registration-heading">Student Registration Form</h2>
+        
+
+        <!-- Previous Events -->
+        <section id="previous">
+            <h2>Previous Events</h2>
+
+            <article>
+                <h3>Teachers' Day Celebration</h3>
+
+                <p>
+                    Students celebrated Teachers' Day through
+                    speeches, performances, and activities.
+                </p>
+
+                <p>Date: 5 September 2026</p>
+            </article>
+             <img src="teachers.jpg" alt="previous Event" width="400">
+
+            <article>
+                <h3>BGI Hackethon</h3>
+
+                <p>
+                    Students learned the basics of HTML and
+                    created their first webpages.
+                </p>
+
+                <p>Date: 13 may 2026</p>
+            </article>
+             <img src="hackathon.jpg" alt="previous Event" width="400">
+
+            <article>
+                <h3>Independence Day Celebration</h3>
+
+                <p>
+                    Students participated in flag hoisting,
+                    speeches, and cultural performances.
+                </p>
+
+                <p>Date: 15 August 2026</p>
+            </article>
+             <img src="independence.jpg" alt="previous Event" width="400">
+        </section>
+
+        
+
+        <!-- Cultural Club -->
+
+        <section id="cultural">
+            <h2>Cultural Club Membership Form</h2>
 
             <p>
-                Complete the form below to register your academic
-                information and laboratory preferences.
+                Join the Cultural Club to participate in dance,
+                music, drama, art, and college celebrations.
             </p>
 
             <form action="#" method="get">
@@ -231,120 +196,307 @@
                 <fieldset>
                     <legend>Personal Information</legend>
 
-                    <p>
-                        <label for="full-name">Full Name:</label>
-                        <input type="text" id="full-name" name="full_name" autocomplete="name" required>
-                    </p>
 
-                    <p>
-                        <label for="email">Email Address:</label>
-                        <input type="email" id="email" name="email" autocomplete="email" required>
-                    </p>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="cultural_name" required>
+                <br><br>
 
-                    <p>
-                        <label for="age">Age:</label>
-                        <input type="number" id="age" name="age" min="16" max="100" required>
-                    </p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="cultural_email" required>
+                <br><br>
 
-                    <p>
-                        <label for="dob">Date of Birth:</label>
-                        <input type="date" id="dob" name="date_of_birth" required>
-                    </p>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="cultural_phone">
+                <br><br>
 
-                    <p>
-                        <label for="roll-number">Student Roll Number:</label>
-                        <input type="text" id="roll-number" name="roll_number" required>
-                    </p>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="cultural_age" min="16">
+                <br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="cultural_dob">
+                <br><br>
                 </fieldset>
 
+                
                 <fieldset>
-                    <legend>Academic Preferences</legend>
+                    <legend>Choose Your Interests</legend>
 
-                    <p>
-                        <label for="laboratory">
-                            Preferred Laboratory:
-                        </label>
 
-                        <select id="laboratory" name="laboratory" required>
-                            <option value="">-- Select a laboratory --</option>
-                            <option value="molecular-biology">
-                                Molecular Biology
-                            </option>
-                            <option value="microbiology">
-                                Microbiology
-                            </option>
-                            <option value="genetics">
-                                Genetics
-                            </option>
-                            <option value="biochemistry">
-                                Biochemistry
-                            </option>
-                            <option value="bioinformatics">
-                                Bioinformatics
-                            </option>
-                        </select>
-                    </p>
+                <input type="checkbox" id="dance" name="cultural_interest" value="dance">
+                <label for="dance">Dance</label>
+                <br>
 
-                    <p>Areas of Interest:</p>
+                <input type="checkbox" id="music" name="cultural_interest" value="music">
+                <label for="music">Music</label>
+                <br>
 
-                    <input type="checkbox" id="interest-genetics" name="interests" value="genetics">
-                    <label for="interest-genetics">Genetics</label>
+                <input type="checkbox" id="drama" name="cultural_interest" value="drama">
+                <label for="drama">Drama</label>
+                <br>
 
-                    <input type="checkbox" id="interest-microbiology" name="interests" value="microbiology">
-                    <label for="interest-microbiology">Microbiology</label>
+                <input type="checkbox" id="art" name="cultural_interest" value="art">
+                <label for="art">Art and Painting</label>
+                <br>
 
-                    <input type="checkbox" id="interest-bioinformatics" name="interests" value="bioinformatics">
-                    <label for="interest-bioinformatics">
-                        Bioinformatics
-                    </label>
-
-                    <p>Preferred Study Mode:</p>
-
-                    <input type="radio" id="mode-online" name="study_mode" value="online" required>
-                    <label for="mode-online">Online</label>
-
-                    <input type="radio" id="mode-offline" name="study_mode" value="offline">
-                    <label for="mode-offline">Offline</label>
-
-                    <input type="radio" id="mode-hybrid" name="study_mode" value="hybrid">
-                    <label for="mode-hybrid">Hybrid</label>
-
-                    <p>
-                        <label for="comments">
-                            Additional Information:
-                        </label>
-                    </p>
-
-                    <textarea id="comments" name="comments" rows="5" cols="40"
-                        placeholder="Describe your academic interests..."></textarea>
+                <input type="checkbox" id="photo" name="cultural_interest" value="photography">
+                <label for="photo">Photography</label>
+                <br><br>
                 </fieldset>
 
-                <p>
-                    <input type="checkbox" id="confirm-information" name="confirm_information" value="yes" required>
+                
+                <fieldset>
+                    <legend>>Previous Experience:</legend>
 
-                    <label for="confirm-information">
-                        I confirm that the information provided is correct.
-                    </label>
-                </p>
 
-                <button type="submit">Register</button>
+                <input type="radio" id="beginner" name="cultural_level" value="beginner" required>
+                <label for="beginner">Beginner</label>
+                <br>
+
+                <input type="radio" id="experienced" name="cultural_level" value="experienced">
+                <label for="experienced">Experienced</label>
+                <br><br>
+
+                <label for="role">Preferred Role:</label>
+
+                <select id="role" name="cultural_role">
+                    <option value="">Select a role</option>
+                    <option value="performer">Performer</option>
+                    <option value="organizer">Organizer</option>
+                    <option value="volunteer">Volunteer</option>
+                </select>
+                <br><br>
+
+
+                <label for="message">Tell Us About Yourself:</label>
+                <br>
+
+                <textarea id="c-message" name="cultural_message" rows="4" cols="40"></textarea>
+                <br><br>
+                </fieldset>
+
+                <input type="checkbox" id="confirm" name="cultural_confirm" required>
+                <label for="confirm">I confirm my information is correct.</label>
+                <br><br>
+
+                <button type="submit">Join Cultural Club</button>
                 <button type="reset">Clear Form</button>
 
             </form>
         </section>
 
+         <!-- Sports Club -->
+
+        <section id="sports">
+            <h2>Sports Club Membership Form</h2>
+
+            <p>
+                Join the Sports Club to participate in games,
+                fitness activities, and sports competitions.
+            </p>
+
+            <form action="#" method="get">
+
+               <fieldset>
+                    <legend>Personal Information</legend>
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="sports_name" required>
+                <br><br>
+
+
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="sports_phone">
+                <br><br>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="sports_age" min="16">
+                <br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="sports_dob">
+                <br><br>
+               </fieldset>
+
+                
+                <fieldset>
+                    <legend>Choose Your Sports:</legend>
+
+                <input type="checkbox" id="cricket" name="sports_interest" value="cricket">
+                <label for="cricket">Cricket</label>
+                <br>
+
+                <input type="checkbox" id="football" name="sports_interest" value="football">
+                <label for="football">Football</label>
+                <br>
+
+                <input type="checkbox" id="badminton" name="sports_interest" value="badminton">
+                <label for="badminton">Badminton</label>
+                <br>
+
+                <input type="checkbox" id="volleyball" name="sports_interest" value="volleyball">
+                <label for="volleyball">Volleyball</label>
+                <br>
+
+                <input type="checkbox" id="chess" name="sports_interest" value="chess">
+                <label for="chess">Chess</label>
+                <br><br>
+                </fieldset>
+
+               
+                <fieldset>
+                    <legend>>Experience Level:</legend>
+
+                
+
+                <input type="radio" id="beginner" name="sports_level" value="beginner" required>
+                <label for="beginner">Beginner</label>
+                <br>
+
+                <input type="radio" id="intermediate" name="sports_level" value="intermediate">
+                <label for="intermediate">Intermediate</label>
+                <br>
+
+                <input type="radio" id="advanced" name="sports_level" value="advanced">
+                <label for="advanced">Advanced</label>
+                <br><br>
+
+                <label for="message"> Achievements:</label>
+                <br>
+
+                <textarea id="message" name="sports_message" rows="4" cols="40"></textarea>
+                <br><br>
+                </fieldset>
+
+                <input type="checkbox" id="confirm" name="sports_confirm" required>
+                <label for="confirm">I confirm my information is correct.</label>
+                <br><br>
+
+                <button type="submit">Join Sports Club</button>
+                <button type="reset">Clear Form</button>
+
+            </form>
+        </section>
+
+         <!-- Technical Club -->
+
+        <section id="technical">
+            <h2>Technical Club Membership Form</h2>
+
+            <p>
+                Join the Technical Club to learn programming,
+                web development, AI , and other technologies.
+            </p>
+
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Personal Information</legend>
+
+            
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="technical_name" required>
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="technical_email" required>
+                <br><br>
+
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="technical_phone">
+                <br><br>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="technical_age" min="16">
+                <br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="technical_dob">
+                <br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Technical Interests</legend>
+                
+
+                <input type="checkbox" id="web" name="technical_interest" value="web-development">
+                <label for="web">Web Development</label>
+                <br>
+
+                <input type="checkbox" id="ai" name="technical_interest" value="ai">
+                <label for="ai">Artificial Intelligence</label>
+                <br>
+
+                <input type="checkbox" id="robotics" name="technical_interest" value="robotics">
+                <label for="robotics">Robotics</label>
+                <br>
+
+                <input type="checkbox" id="coding" name="technical_interest" value="coding">
+                <label for="coding">Competitive Coding</label>
+                <br>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Experience Level:</legend>
+                
+
+                <input type="radio" id="t-beginner" name="technical_level" value="beginner" required>
+                <label for="beginner">Beginner</label>
+                <br>
+
+                <input type="radio" id="intermediate" name="technical_level" value="intermediate">
+                <label for="intermediate">Intermediate</label>
+                <br>
+
+                <input type="radio" id="advanced" name="technical_level" value="advanced">
+                <label for="advanced">Advanced</label>
+                <br><br>
+
+                <label for="team">Preferred Team:</label>
+
+                <select id="team" name="technical_team">
+                    <option value="">Select a team</option>
+                    <option value="development">Development Team</option>
+                    <option value="design">Design Team</option>
+                    <option value="research">Research Team</option>
+                    <option value="management">Event Management</option>
+                </select>
+                <br><br>
+
+                
+                <label for="message">Describe Your Project Ideas:</label>
+                <br>
+
+                <textarea id="message" name="technical_message" rows="4" cols="40"></textarea>
+                <br><br>
+                </fieldset>
+
+                <input type="checkbox" id="confirm" name="technical_confirm" required>
+                <label for="confirm">I confirm my information is correct.</label>
+                <br><br>
+
+                <button type="submit">Join Technical Club</button>
+                <button type="reset">Clear Form</button>
+
+            </form>
+        </section>
+
+
+
     </main>
 
-    <!-- Complementary Content -->
-    <aside aria-labelledby="safety-heading">
-        <h2 id="safety-heading">Laboratory Safety Guidelines</h2>
+     <!-- Complementary Content -->
+    <aside id="Guidelines">
+        <h2 >Safety Guidelines</h2>
 
         <ul>
-            <li>Wear appropriate personal protective equipment.</li>
-            <li>Follow the instructions provided by laboratory supervisors.</li>
-            <li>Never eat or drink inside the laboratory.</li>
-            <li>Handle biological samples according to laboratory protocols.</li>
-            <li>Report spills, accidents, and unsafe conditions immediately.</li>
+             <li>Entry to the college campus will be permitted only through a valid College ID Card and Gate Pass </li>
+             <li>No unregistered student will be allowed entry</li>
+             <li> Students are strictly instructed not to bring any outsiders into the campus</li>
+             <li> Students are not permitted to bring bags onto the college campus during the event</li> 
+            
         </ul>
     </aside>
 
@@ -353,19 +505,20 @@
         <h2>Contact the Department</h2>
 
         <address>
-            Department of Biotechnology<br>
-            Science and Research Building<br>
-            Example University<br>
-            Gandhinagar, Gujarat, India<br>
+             Kokta Anand Nagar Raisen Road Bhopal Madhya Pradesh 462021 <br>
+             Contact Number: +91-9109954681, 8770550980<br>
+             Official Website: Bansal Institute of Science and Technology (BIST)<br>
+            
             Email:
-            <a href="mailto:biotechnology@example.edu">
-                biotechnology@example.edu
+            <a href="careers@bistbpl.in">
+              careers@bistbpl.in
+                
             </a>
         </address>
 
         <p>
             <small>
-                &copy; 2026 Biotechnology Student Portal.
+                &copy; 2026 BGI Event Portal.
                 All rights reserved.
             </small>
         </p>
@@ -376,5 +529,4 @@
     </footer>
 
 </body>
-
 </html>
